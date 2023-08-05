@@ -18,6 +18,10 @@
         .text-head {
             color: #7031f6;
         }
+
+        .text {
+            font-size: smaller;
+        }
     </style>
 </head>
 
@@ -25,10 +29,18 @@
     <div class="container shadow border">
         <div class="row">
             <div class="col-md-6">
-                <img src="https://media.sciencephoto.com/c0/04/16/32/c0041632-800px-wm.jpg" class="img-fluid">
+                <img src="c0041632-800px-wm.jpg" class="img-fluid">
             </div>
             <div class="col-md-6">
-                <div class="title mb-5 text-head ">Explore & Experience</div>
+                <div class="row mb-5">
+                    <div class="col-9"></div>
+                    <div class="col-3 mt-3 ">
+                        <button class="btn btn-outline-primary btn-sm px-4">Sigin</button>
+                    </div>
+                </div>
+
+                <div class="title mb-3 text-head ">Explore & Experience</div>
+                <div class="text mb-3 text-head ">Get onto your most confortable journey yet. All the way up.</div>
                 <form id="contactForm" onsubmit="submitForm(event)">
                     <div class="row mb-4">
                         <div class="form-group col-md-6">
