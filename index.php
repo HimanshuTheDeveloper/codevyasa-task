@@ -68,7 +68,7 @@
                         <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password">
                     </div>
 
-                    <button type="submit" class="btn btn-primary mb-4 w-100">Sign in</button>
+                    <button type="submit" class="btn btn-primary mb-4 w-100">Get Started</button>
                 </form>
             </div>
         </div>
